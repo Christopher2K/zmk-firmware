@@ -25,7 +25,7 @@
 #define HM_PRIOR_IDLE 150
 
 // HOMEROW MODS
-ZMK_HOLD_TAP(hml, 
+ZMK_HOLD_TAP(hml,
     flavor = "balanced";
     tapping-term-ms = <HM_TAPPING_TERM>;
     quick-tap-ms = <HM_QUICK_TAP>;
@@ -35,7 +35,7 @@ ZMK_HOLD_TAP(hml,
     bindings = <&kp>, <&kp>;
 )
 
-ZMK_HOLD_TAP(hmr, 
+ZMK_HOLD_TAP(hmr,
     flavor = "balanced";
     tapping-term-ms = <HM_TAPPING_TERM>;
     quick-tap-ms = <HM_QUICK_TAP>;
