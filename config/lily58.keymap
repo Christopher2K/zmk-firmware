@@ -61,7 +61,7 @@ ZMK_HOLD_TAP(hmsr,
 )
 
 // COMBOS
-ZMK_COMBO(esc, &kp ESC, RM1 RM2)
+ZMK_COMBO(esc, &kp ESC, RB1 RB2)
 
 
 // LAYERS
