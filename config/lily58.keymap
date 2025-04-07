@@ -24,8 +24,8 @@
 #define HM_QUICK_TAP 175
 #define HM_PRIOR_IDLE 130
 
-#define COMBO_TERM 18
-#define COMBO_IDLE 150
+#define CB_TERM 18
+#define CB_IDLE 150
 
 // HOMEROW MODS
 ZMK_HOLD_TAP(hml,
@@ -78,19 +78,19 @@ ZMK_HOLD_TAP(hmsr,
   ╰───────────╮ 50  51  52  53 │ 54  55  56  57 ╭───────────╯ ╰───────────╮ LH3 LH2 LH1 LH0 │ RH0 RH1 RH2 RH3 ╭───────────╯
               ╰────────────────┴────────────────╯                         ╰─────────────────┴─────────────────╯             */
 
-ZMK_COMBO(esc,   &kp ESC,      LB1 LB2, DEF, COMBO_TERM, COMBO_IDLE)
+ZMK_COMBO(esc,   &kp ESC,      LB1 LB2, DFT, CB_TERM, CB_IDLE)
 
-ZMK_COMBO(lpar,  &lpar_lt,     RT1 RT2, DEF, COMBO_TERM, COMBO_IDLE)
-ZMK_COMBO(rpar,  &rpar_gt,     RT2 RT3, DEF, COMBO_TERM, COMBO_IDLE)
+ZMK_COMBO(lpar,  &lpar_lt,     RT1 RT2, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(rpar,  &rpar_gt,     RT2 RT3, DFT, CB_TERM, CB_IDLE)
 
-ZMK_COMBO(lbkt,  &kp LBKT,     RM1 RM2, DEF, COMBO_TERM, COMBO_IDLE)
-ZMK_COMBO(rbkt,  &kp RBKT,     RM2 RM3, DEF, COMBO_TERM, COMBO_IDLE)
+ZMK_COMBO(lbkt,  &kp LBKT,     RM1 RM2, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(rbkt,  &kp RBKT,     RM2 RM3, DFT, CB_TERM, CB_IDLE)
 
-ZMK_COMBO(lbrc,  &kp LBRC,     RB1 RB2, DEF, COMBO_TERM, COMBO_IDLE)
-ZMK_COMBO(rbrc,  &kp RBRC,     RB2 RB3, DEF, COMBO_TERM, COMBO_IDLE)
+ZMK_COMBO(lbrc,  &kp LBRC,     RB1 RB2, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(rbrc,  &kp RBRC,     RB2 RB3, DFT, CB_TERM, CB_IDLE)
 
-ZMK_COMBO(lt,    &kp LT,       RF1 RF2, DEF, COMBO_TERM, COMBO_IDLE)
-ZMK_COMBO(gt,    &kp GT,       RF2 RF3, DEF, COMBO_TERM, COMBO_IDLE)
+ZMK_COMBO(lt,    &kp LT,       RF1 RF2, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(gt,    &kp GT,       RF2 RF3, DFT, CB_TERM, CB_IDLE)
 
 
 // LAYERS
