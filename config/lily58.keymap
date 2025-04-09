@@ -80,18 +80,17 @@ ZMK_HOLD_TAP(hmsr,
 
 ZMK_COMBO(esc,   &kp ESC,      LB1 LB2, DFT, CB_TERM, CB_IDLE)
 
-ZMK_COMBO(lpar,  &kp LPAR,     RT1 RT2, DFT, CB_TERM, CB_IDLE)
-ZMK_COMBO(rpar,  &kp RPAR,     RT2 RT3, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(lbkt,  &kp LBKT,     RT1 RT2, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(rbkt,  &kp RBKT,     RT2 RT3, DFT, CB_TERM, CB_IDLE)
 
-ZMK_COMBO(lbkt,  &kp LBKT,     RM1 RM2, DFT, CB_TERM, CB_IDLE)
-ZMK_COMBO(rbkt,  &kp RBKT,     RM2 RM3, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(lpar,  &kp LPAR,     RM1 RM2, DFT, CB_TERM, CB_IDLE)
+ZMK_COMBO(rpar,  &kp RPAR,     RM2 RM3, DFT, CB_TERM, CB_IDLE)
 
 ZMK_COMBO(lbrc,  &kp LBRC,     RB1 RB2, DFT, CB_TERM, CB_IDLE)
 ZMK_COMBO(rbrc,  &kp RBRC,     RB2 RB3, DFT, CB_TERM, CB_IDLE)
 
 ZMK_COMBO(lt,    &kp LT,       RF1 RF2, DFT, CB_TERM, CB_IDLE)
 ZMK_COMBO(gt,    &kp GT,       RF2 RF3, DFT, CB_TERM, CB_IDLE)
-
 
 // LAYERS
 ZMK_LAYER(default_layer,
